@@ -1,0 +1,26 @@
+{
+  "name": "jwtauth",
+  "version": "1.0.0",
+  "description": "JWT Authentication and authorization using NodeJs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JWT",
+    "auth",
+    "Nodejs",
+    "mongoDB",
+    "Express"
+  ],
+  "author": "Khushal Patil",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5"
+  }
+}
